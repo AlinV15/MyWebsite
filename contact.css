@@ -1,0 +1,76 @@
+/*General settings*/
+html{
+    background-color: #00BFFF;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 16px;
+}
+li{
+    list-style-type: none;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+section{
+    border-bottom: 1rem solid black;
+    margin-bottom: 2rem;
+}
+/*Header of the principal site*/
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: #70E6B3;
+}
+li a{
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+}
+li a:hover{
+    color: #722183;
+    font-weight: 700;
+}
+#about-me{
+    margin-left: 0;
+}
+header{
+    border-bottom: 1rem solid black;
+    margin-bottom: 2rem;
+}
+/*special section -> Contact*/
+.contact p{
+    font-size: 2rem;
+    text-align: center;
+}
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact li img{
+  width: 15.625rem;
+  height: 15.625rem;
+}
+#contact li{
+    margin-right: 3rem;
+}
+/*Footer*/
+footer p{
+    text-align: center;
+    font-size: 0.75rem;
+}

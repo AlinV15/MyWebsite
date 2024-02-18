@@ -1,0 +1,107 @@
+/*General settings*/
+html{
+    background-color: #00BFFF;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 16px;
+}
+li{
+    list-style-type: none;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+section{
+    border-bottom: 1rem solid black;
+    margin-bottom: 2rem;
+}
+/*Header of the principal site*/
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 1rem;
+    border: 1px solid  black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: #70E6B3;
+}
+li a{
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+}
+li a:hover{
+    color:#722183;
+    font-weight: 700;
+}
+#about-me{
+    margin-left: 0;
+}
+header{
+    border-bottom: 1rem solid black;
+    margin-bottom: 2rem;
+}
+
+/*The body of the site*/
+/*section 1 -> About me*/
+.about-me{
+    border-bottom: 1rem solid black;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+#about-me{
+    display: flex;
+}
+#about-me div p{
+    font-size: 1.5rem;
+}
+#about-me div{
+    width: 62.5rem;
+}
+figure img{
+    width: 15.625rem;
+    align-self: flex-end;
+    padding-top: 4rem;
+}
+
+/*section 2 -> Projects*/
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#projects li{
+    font-size: 2rem;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    background-color: #6AD2D1;
+}
+/*section 3 -> Skills*/
+#skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skills li img{
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 2rem;
+}
+/*Footer*/
+footer p{
+    text-align: center;
+    font-size: 0.75rem;
+}
