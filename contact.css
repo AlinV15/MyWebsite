@@ -52,6 +52,23 @@ header{
     border-bottom: 1rem solid black;
     margin-bottom: 2rem;
 }
+button{
+    justify-self: end;
+    top: 1rem;
+    position: absolute;
+    right: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    background-color: slategray;
+    color: white;
+    box-shadow: 0.5rem 0.25rem 0.25rem darkslategray;
+    border-radius: 2rem;
+}
+button:hover{
+    color: #cb64ed;
+    background-color: white;
+    font-weight: 700;
+}
 /*special section -> Contact*/
 .contact p{
     font-size: 2rem;

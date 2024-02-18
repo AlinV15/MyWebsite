@@ -22,6 +22,7 @@ section{
 h1{
     text-align: center;
     font-size: 5rem;
+    align-self: center;
 }
 nav ul {
     display: flex;
@@ -52,7 +53,28 @@ header{
     border-bottom: 1rem solid black;
     margin-bottom: 2rem;
 }
-
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    justify-self: end;
+    top: 1rem;
+    position: absolute;
+    right: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    background-color: slategray;
+    color: white;
+    box-shadow: 0.5rem 0.25rem 0.25rem darkslategray;
+    border-radius: 2rem;
+}
+button:hover{
+    color: #cb64ed;
+    background-color: white;
+    font-weight: 700;
+}
 /*The body of the site*/
 /*section 1 -> About me*/
 .about-me{
@@ -88,6 +110,31 @@ figure img{
     padding: 0.5rem;
     font-weight: 700;
     background-color: #6AD2D1;
+}
+form{
+    text-align: center;
+}
+#username{
+    border-radius: 1rem;
+    background-color: #5c95f7;
+    margin-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+#advice{
+    border-radius: 1rem;
+    background-color: #5c95f7;
+    font-family: 'Courier New', Courier, monospace;
+}
+#opinions{
+    border-radius: 1rem;
+    background-color: #5c95f7;
+    font-family: 'Courier New', Courier, monospace;
+}
+#submit{
+    border-radius: 1rem;
+    background-color: #5c95f7;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1rem;
 }
 /*section 3 -> Skills*/
 #skills{

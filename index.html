@@ -3,7 +3,10 @@
 
 <header>
     <link href="style.css" rel="stylesheet"/>
- <h1>Ciobanu Alin-Viorel</h1>
+    <div id="head">
+     <h1>Ciobanu Alin-Viorel</h1>
+     <button id="darkmode">Darkmode</button>
+    </div>
  <nav>
     <ul>
         <li id = "about-me"><a href="#">About me</a></li>
@@ -34,6 +37,25 @@
             <li>Club starting</li>
             <li>Random messenger</li>
         </ul>
+        <form action="action.html" method="post" >
+            <h3>Your opinion</h3>
+            <p>What opinion have you about my projects?</p>
+            <select name="opinions" id="opinions" required>
+                <option value="very-nice">Very nice!&#129505;</option>
+               <option value="nice">Nice!&#128170;</option>
+               <option value="neutral">Neutral.&#128529;</option>
+               <option value="bad">Bad!&#128078;</option>
+               <option value="very-bad">Very bad!&#128545;</option>
+            </select>
+            <br>
+            <p>What advices can you give me for make better the projects?</p>
+            <textarea name="advice" id="advice" cols="30" rows="10">Here put your advice...</textarea>
+            <br>
+            <p>What your name?</p>
+            <input type="text" name="username" id="username" required maxlength="12" minlength="3">
+            <br>
+            <input type="submit" name="submit" id="submit" value="Submit">
+        </form>
     </section>
     <section class="skills">
         <h2>Skills</h2>
