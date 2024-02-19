@@ -113,3 +113,22 @@ const toggleDarkMode = () =>{
 //running event
 darkButton.onclick = toggleDarkMode;
  
+//initialize variables
+const photo = document.getElementById("myPhoto");
+let photoAngle = 0;
+
+//making the function
+const rotateImage = () =>{
+ if(photoAngle === 360)
+ {
+    photoAngle = 30;
+    photo.style.transform = `rotate(${photoAngle}deg)`;
+ }
+ else{
+    photoAngle += 30;
+    photo.style.transform = `rotate(${photoAngle}deg)`;
+ }
+};
+//making the event
+
+photo.onclick = rotateImage;
